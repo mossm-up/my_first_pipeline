@@ -5,7 +5,7 @@ node {
 	stage ('stage2') {
 		sh 'echo "oh, it's stage two"'
 	}
-	stage ('stage4') {
+	stage ('stage3') {
 		sh 'echo "hey, what happened to stage 3?"'
 	}
 }
