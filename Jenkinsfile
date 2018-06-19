@@ -3,7 +3,7 @@ node {
 		sh 'echo "insert text hereabouts"'
 	}
 	stage ('stage2') {
-		sh 'echo "oh, it's stage two"'
+		sh 'echo "oh, it is stage two"'
 	}
 	stage ('stage3') {
 		sh 'echo "hey, what happened to stage 3?"'
